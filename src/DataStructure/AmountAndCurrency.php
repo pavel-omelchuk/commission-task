@@ -65,7 +65,7 @@ class AmountAndCurrency
     }
 
     /**
-     * @throws
+     * @throws InvalidCurrencyCodeException
      */
     public function setCurrency(string $currencyCode)
     {
